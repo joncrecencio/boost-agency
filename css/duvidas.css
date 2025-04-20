@@ -1,0 +1,35 @@
+section.duvidas{
+    padding: 3rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+section.duvidas > .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+}
+
+section.duvidas .texto h3{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    font-family: 'Open sans';
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+section.duvidas .texto p{
+    font-size: 1.1rem;
+    font-family: 'Open sans';
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:768px){
+    section.duvidas > .container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+}

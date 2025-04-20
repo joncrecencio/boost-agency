@@ -1,0 +1,85 @@
+section.contato-geral{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+
+section.contato-geral .img-empreendimento,
+section.contato-geral form{
+    width: 50%;
+}
+
+section.contato-geral .img-empreendimento{
+    height: 100%;
+    background-image: url('https://images.pexels.com/photos/8853507/pexels-photo-8853507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.contato-geral form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.contato-geral form h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+section.contato-geral form .input-block{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+section.contato-geral form .input-block label{
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+section.contato-geral form .input-block input{
+    height: 2.5rem;
+    width: 100%;
+    padding: 0 0.5rem;
+    border-radius: 0.8rem;
+    border: 1px solid #2b2b2b;
+}
+
+section.contato-geral form .input-block textarea{
+    padding: 0.5rem;
+    height: 7.5rem;
+    resize: none;
+    border-radius: 0.8rem;
+}
+
+section.contato-geral form .input-block button{
+    height: 2.5rem;
+    width: 8.75rem;
+    border: 2px solid #2b2b2b;
+    background: transparent;
+    border-radius: 1.5rem;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+section.contato-geral form .input-block button:hover{
+    transition: all 300ms;
+    background: #2b2b2b;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    section.contato-geral .img-empreendimento{
+        display: none;
+    }
+
+    section.contato-geral form{
+        width: 100%;
+    }
+}

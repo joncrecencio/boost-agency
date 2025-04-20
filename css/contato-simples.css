@@ -1,0 +1,76 @@
+.contato-simples{
+    padding: 2rem 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.contato-simples > .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contato-simples .icone{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg); 
+    border-radius: 0.5rem;
+}
+
+.contato-simples .group:nth-child(1) .icone{
+    background-color: #25D366;
+}
+
+.contato-simples .group:nth-child(2) .icone{
+    background-color: #D93025;
+}
+
+.contato-simples .group:nth-child(3) .icone{
+    background-color: #E1306C;
+}
+
+.contato-simples .icone i{
+    font-size: 1.5rem;
+    color: #fff;
+    transform: rotate(-45deg);
+}
+
+.contato-simples .dados h3{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-family: 'agrandir', sans-serif;
+    color: #333;
+}
+
+.contato-simples .dados a{
+    color: rgb(73, 73, 73);
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px){
+    .contato-simples > .container{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .contato-simples .icone{
+        transform: rotate(0); 
+    }
+
+    .contato-simples .icone i{
+        transform: rotate(0); 
+    }
+}
