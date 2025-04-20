@@ -94,6 +94,7 @@
     object-fit: cover;
     z-index: -1;
     background-color: black; /* Para evitar bordas feias se o vídeo não preencher */
+    -webkit-object-fit: cover;
 }
 
 .desktop-video {
