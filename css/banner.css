@@ -146,6 +146,12 @@
 }
 
 @media screen and (max-width: 768px){
+
+    .banner {
+        width: 100%;
+        height: 90vh;
+    }
+
     .banner > .agrupamento{
         width: 100%;
         left: 0;
