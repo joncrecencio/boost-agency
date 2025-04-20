@@ -59,6 +59,10 @@
 }
 
 @media screen and (max-width: 768px){
+    .contato-simples{
+        background-color: #d1d1d1;
+    }
+    
     .contato-simples > .container{
         width: 100%;
         flex-direction: column;
